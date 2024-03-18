@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-adj {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100svh;
+  height: 100vh;
+}
+
+.blog-style {
+  background-color: yellow;
+  color: #333;
+  box-shadow: 5px 10px rgb(0, 0, 0, 0.2);
+  padding: 100px 50px 100px 50px;
+  border-radius: 100%;
+}
+
+#form-section {
+  text-align: center;
+}
+
+#form-header {
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.input-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-style {
+  text-align: start;
+  padding: 10px;
+}
+
+.button-style {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+}

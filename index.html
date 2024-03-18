@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <p></p>
+    </header>
+    <div class="flex-adj">
+      <section>
+        <h1 class="blog-style">My First Blog</h1>
+      </section>
+
+      <section id="form-section">
+        <h2 id="form-header">What's on your mind?</h2>
+        <form class="form-style">
+          <div class="input-wrap">
+            <label class="label-style" for="username">Username</label>
+            <input type="text" id="username" name="username" />
+          </div>
+          <div class="input-wrap">
+            <label class="label-style" for="title">Title</label>
+            <input type="text" id="title" name="title" />
+          </div>
+          <div class="input-wrap">
+            <label class="label-style" for="content">Content</label>
+            <textarea
+              type="text"
+              id="content"
+              name="content"
+              rows="3"
+            ></textarea>
+          </div>
+          <button class="button-style">Submit</button>
+        </form>
+      </section>
+    </div>
+    <script src="./assets/js/form.js"></script>
+  </body>
+</html>
