@@ -4,15 +4,18 @@ const userTitle = document.querySelector("#title");
 const userContent = document.querySelector("#content");
 
 function startApp(event) {
-  event.preventDefault();
+  Username: userName.value,
+  Title: userTitle.value,
+  Content: userContent.value.trim(),
 
-  console.log(userName.value);
-  console.log(userTitle.value);
-  console.log(userContent.value);
+  event.preventDefault();
 }
 
-subForm.addEventListener("click", startApp);
+function subForm() {
+  subForm.addEventListener("click", startApp);
 
+  window.location.href = "./blog.html";
+}
 // Localstorage.setItem()
 
 // second page

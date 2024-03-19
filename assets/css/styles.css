@@ -4,13 +4,18 @@
   box-sizing: border-box;
 }
 
+.home {
+  display: flex;
+  justify-content: center;
+}
+
 .flex-adj {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 100svh;
-  height: 100vh;
+  height: 90svh;
+  height: 90vh;
 }
 
 .blog-style {
